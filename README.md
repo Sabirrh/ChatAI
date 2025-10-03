@@ -7,7 +7,7 @@
 
 A modern, responsive real-time chat application powered by AI. Built with React, Socket.IO, and Redux Toolkit for seamless state management and real-time communication.
 
-![ChatAI Screenshot](./client/src/assets/background_Img.jpg)
+![ChatAI Screenshot](./client/src/assets/ScreenShot_of_Page.png)
 
 ## ✨ Features
 
