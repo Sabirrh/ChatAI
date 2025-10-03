@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="title">
+  <title id="title">ChatAi</title>
+  <circle cx="32" cy="32" r="30" fill="#0ea5a4"/>
+  <path d="M20 24c0-6 6-10 12-10s12 4 12 10-6 10-12 10c-1.8 0-3.6-.3-5.2-1l-8.8 5.5 1.8-5.7C20.9 36 20 30.7 20 24z" fill="#ffffff"/>
+  <g transform="translate(14,7)" fill="#0f172a">
+    <path d="M24 22.5h-3.6l-1.8-5.7-1.8 5.7H13l6.6-18h2.4L24 22.5z"/>
+    <path d="M33 4.5c-1.9 0-3.4 1.2-3.4 3 0 1.8 1.5 3 3.4 3s3.4-1.2 3.4-3c0-1.8-1.5-3-3.4-3zm0 7.5c-2.8 0-5 2.1-5 4.8v8.6h2.4v-8.1c0-1.4 1-2.4 2.6-2.4 1.6 0 2.6 1 2.6 2.4v8.1H38v-8.6c0-2.7-2.2-4.8-5-4.8z"/>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+const {OpenAI} = require('openai');
+require('dotenv').config();
+
+// // const client = new OpenAI({
+// //     /// OPEN AI CONFIG
+// //     apiKey: process.env.OPEN_AI_API_KEY,
+// //     organization: process.env.OPEN_AI_ORGANIZATION
+// // })
+
+const client = new OpenAI({
+    //OpenAI config
+    baseURL:"https://models.github.ai/inference",
+    apiKey:process.env.OPEN_AI_API_KEY,
+})
+
+module.exports = {client}
