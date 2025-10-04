@@ -1,5 +1,3 @@
-const { model } = require("mongoose")
-
 const { client } = require('../config/opneai.config')
 let history = [];
 const messageHandler = async (socket, data) => {
