@@ -3,7 +3,7 @@ import { store } from '../store/index.js'
 import {storeResponse,aiError} from '../store/chatSlice.js'
 let socket;
 export const socketServer = () => {
-    socket = io('http://localhost:5004')
+    socket = io('https://chatai-rlig.onrender.com')
 
 
     socket.on('connect', () => {
