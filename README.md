@@ -69,12 +69,6 @@ OPEN_AI_API_KEY=your_api_key_here
 PORT=5004  # Optional, defaults to 5004
 ```
 
-4. Configure OpenAI (Server)
-The project is set up to use the GitHub AI inference endpoint:
-```javascript
-// server/config/opneai.config.js
-baseURL: "https://models.github.ai/inference"
-```
 
 4. Start the development servers
 ```bash
