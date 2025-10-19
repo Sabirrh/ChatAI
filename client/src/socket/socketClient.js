@@ -9,7 +9,7 @@ export const socketServer = () => {
     socket.on('connect', () => {
         // console.log(`Connected to socket server: ${socket.id}`)
         socket.on('ai-response', (data) => {
-            console.log(data)
+            // console.log(data)
             store.dispatch(storeResponse(data))
         });
         socket.on('Ai-error', (error)=>{
